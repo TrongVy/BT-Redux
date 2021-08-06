@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import {actDeleteProduct,actTangGiam}from '../store/actions/shoppingAction'
+import {actDeleteProduct,actTangGiam}from '../../store/actions/shoppingAction'
 class Modal extends Component {
     renderTable() {
         const {shoppingList,deleteProduct,tangGiamSL} = this.props;

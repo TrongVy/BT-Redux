@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {connect} from 'react-redux'
-import {actAddToShoppingList } from '../store/actions/shoppingAction'
+import {actAddToShoppingList } from '../../store/actions/shoppingAction'
  class Product extends Component {
     render() {
         const { product,addProduct } = this.props;

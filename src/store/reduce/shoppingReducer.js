@@ -29,6 +29,7 @@ const shopReducer = (state = initialState, action) => {
             return { ...state, shoppingList: shoppingListUpdate }
         }
         case shoppingContants.actTangGiam :{
+            
             let shoppingListUpdate = [...state.shoppingList];
             let index = shoppingListUpdate.findIndex(item => {
                 return item.id === id;

@@ -16,15 +16,16 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <Shopping />
+       
+          <GameOanTuTi />
         </Route>
 
         <Route path="/gamexucxac">
           <GameXucXac />
         </Route>
 
-        <Route path="/gameoantuti">
-          <GameOanTuTi />
+        <Route path="/shopping">
+        <Shopping />
         </Route>
 
         <Route path="/bookingTikit">

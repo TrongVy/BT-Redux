@@ -46,7 +46,7 @@ const gameReducer = (state = initialState, action) => {
             return { ...state, listXucXac: newList }
         }
         default: {
-            return { ...state }
+            return {...state}
         }
     }
 }

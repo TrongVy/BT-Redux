@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import KetQua from './KetQua'
 import XucXac from './XucXac'
-import './gameXucXac.css'
+import './GameXucXac.css'
 import { connect } from 'react-redux'
 import { actBtn,actPlay } from '../../store/actions/gameXucXac'
 class GameXucXac extends Component {
